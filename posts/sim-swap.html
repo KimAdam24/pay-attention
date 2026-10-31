@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How a SIM swap gets around text-message codes | Pay Attention</title>
+  <meta name="description" content="How scammers take over your phone number without touching your phone, and how to lock it down.">
+  <link rel="icon" href="../logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <img src="../logo.png" alt="Pay Attention logo: a navy padlock with a dollar sign in the shackle and a green keyhole">
+        Pay Attention
+      </a>
+      <nav aria-label="Main">
+        <a href="../index.html#posts">Posts</a>
+        <a href="../index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap measure">
+
+    <header class="post-head">
+      <h1>How a SIM swap gets around text-message codes</h1>
+      <p class="meta">By Adam Kim · October 2026 · 6 min read</p>
+    </header>
+
+    <article>
+
+      <h2>It starts with no bars</h2>
+      <p>You’re going about your day and then suddenly your phone says “SOS only.” No bars, no data. You think it’s a bad signal and you restart your phone. Still nothing. Then emails begin to appear on your laptop. Password reset requests for your email, your bank, your Venmo maybe.</p>
+      <p>What’s happened is that someone has persuaded your phone carrier to move your phone number onto a SIM card that they own. No one has gone near your phone. It just stopped being the phone your number is associated with. And now all the text codes that were supposed to be for you go straight to them.</p>
+      <p>This is called a SIM swap, and it’s a big reason I keep saying “never share a texted code” in my last two posts. In those scams, the scammer had to trick you into giving them the code. With a SIM swap they bypass you entirely.</p>
+
+      <figure>
+        <blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316">
+<a href="https://www.reddit.com/r/personalfinance/comments/1gb7jhs/sim_swap_scam_victim/">SIM Swap Scam Victim </a><br> by
+<a href="https://www.reddit.com/user/babraham_lincoln/">u/babraham_lincoln</a> in
+<a href="https://www.reddit.com/r/personalfinance/">personalfinance</a>
+</blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+        <figcaption>A Reddit user describes their experience getting SIM swapped even with a carrier PIN in place. Their advice: turn on every extra layer of security your carrier offers to get maximum protection.</figcaption>
+      </figure>
+
+      <h2>How your number moves</h2>
+      <p>Your SIM card, or the built-in eSIM in newer phones, is what ties your phone to your carrier. The phone number is associated with that SIM, not the phone. Transferring a number to a new SIM is something completely normal. People do it when they get a new phone, lose one, or switch carriers. Carriers take care of these requests all day long.</p>
+      <p>That’s the process scammers use. There are two variations. In a SIM swap, they get your carrier to move your number to a new SIM they control. In a port-out, they move your number to a different carrier entirely. They get your number either way.</p>
+      <p>All they need is for the carrier to think they are you. That sometimes means calling customer service with personal info like your address or birthday that’s easy to find after a data breach. Sometimes it means walking into a store with a fake ID.</p>
+      <p>That second one is precisely what happened to the U.S. Securities and Exchange Commission in January 2024. Eric Council Jr., an Alabama man, used a portable ID printer to create a fake ID for someone who had access to the SEC’s X account, according to the <a href="https://www.justice.gov/usao-dc/pr/alabama-man-sentenced-hack-sec-x-account-spiked-value-bitcoin">Department of Justice</a>. He took it to an AT&amp;T store and <a href="https://www.securityweek.com/prison-sentence-for-man-involved-in-sec-x-account-hack/">talked an employee into</a> moving that person’s number onto a new SIM card. Then he put the SIM in a new iPhone, got the password reset code for the SEC’s account and sent it to the rest of his group. They used it to post a fake announcement that the SEC had approved Bitcoin ETFs, and Bitcoin’s price jumped by more than $1,000. Council was paid about $50,000 for the SIM swap. He even <a href="https://www.theregister.com/2025/05/19/sim_swapper_sec_x_account/">returned the iPhone for a refund</a> afterward. In May 2025 he was sentenced to 14 months in prison.</p>
+
+      <figure>
+        <div class="diagram">
+          <svg viewBox="0 0 640 210" role="img" aria-labelledby="sim-diagram-title sim-diagram-desc">
+            <title id="sim-diagram-title">How a SIM swap works</title>
+            <desc id="sim-diagram-desc">A scammer uses a fake ID or a phone call to convince your carrier to move your number. The carrier moves your number to the scammer’s phone. The scammer’s phone now gets your texts, including password reset codes, which they use to take over your accounts. Meanwhile your phone shows no service.</desc>
+            <defs>
+              <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path class="arrowhead" d="M0,0 L10,5 L0,10 z"/>
+              </marker>
+            </defs>
+            <rect class="box" x="10" y="50" width="130" height="64" rx="10"/>
+            <text x="75" y="78" text-anchor="middle">Scammer</text>
+            <text x="75" y="98" text-anchor="middle" class="small">fake ID or phone call</text>
+            <rect class="box" x="175" y="50" width="130" height="64" rx="10"/>
+            <text x="240" y="78" text-anchor="middle">Your carrier</text>
+            <text x="240" y="98" text-anchor="middle" class="small">moves your number</text>
+            <rect class="box-scam" x="340" y="50" width="130" height="64" rx="10"/>
+            <text x="405" y="78" text-anchor="middle">Scammer’s phone</text>
+            <text x="405" y="98" text-anchor="middle" class="small">gets your texts</text>
+            <rect class="box" x="505" y="50" width="125" height="64" rx="10"/>
+            <text x="567" y="78" text-anchor="middle">Your accounts</text>
+            <text x="567" y="98" text-anchor="middle" class="small">reset with your codes</text>
+            <line class="arrow" x1="140" y1="82" x2="171" y2="82"/>
+            <line class="arrow" x1="305" y1="82" x2="336" y2="82"/>
+            <line class="arrow" x1="470" y1="82" x2="501" y2="82"/>
+            <text x="320" y="165" text-anchor="middle" class="small">Your phone just shows “No service.” Every code meant for you goes to them.</text>
+          </svg>
+        </div>
+        <figcaption>A SIM swap doesn’t hack your phone. It just moves your number somewhere else.</figcaption>
+      </figure>
+
+      <h2>Where it breaks</h2>
+      <p>Text-message codes are built on one assumption: only you have your phone number. In security, a texted code is supposed to count as “something you have,” like a key for your house. However, your phone number isn’t really something you can hold. It’s an entry in your carrier’s system, and someone else can talk the carrier into changing it.</p>
+      <p>So the weak link isn’t the code itself. It’s instead some customer service representative who’s just doing their job and has no idea the person on the phone is lying about their identity. Again, it is social engineering, same as the Zelle scam and the wallet scam from my two <a href="zelle-scams.html">earlier</a> <a href="tap-to-pay.html">posts</a>. The one thing I’ve noticed is that all of these scenarios are following the same pattern. Tech works most of the time, but the people around it are the softer target.</p>
+      <p>Regulators have taken action regarding this problem. In November 2023, the FCC adopted rules that <a href="https://www.govinfo.gov/content/pkg/FR-2023-12-08/html/2023-26338.htm">require carriers to use secure ways of checking your identity</a> before a SIM change or port-out, and to notify you right away when one is requested. However, after carriers asked for more time to update their systems, the FCC <a href="https://www.tlp.law/2024/07/08/fcc-amends-sim-swapping-port-out-fraud-compliance-date/">pushed back the compliance deadline</a> in July 2024.</p>
+      <p>The good news is that you can lock your number yourself and it doesn’t cost you anything. Verizon calls it <a href="https://www.verizon.com/about/account-security/how-does-verizon-protect-my-account">SIM Protection and Number Lock</a>. T-Mobile has SIM Protection and a separate setting known as Port-Out Protection. AT&amp;T added <a href="https://macrumors.com/2025/07/01/account-lock-sim-swapping">Wireless Account Lock</a> in 2025. The only thing that is annoying is that most of these settings are not on by default. Also, with Verizon and T-Mobile you actually have to turn on <a href="https://www.techlicious.com/tip/lock-sim-card-sim-swapping/">two different things</a> to block both a SIM swap and a port-out.</p>
+
+      <figure>
+        <div class="embed">
+          <iframe src="https://www.youtube.com/embed/dM5BJxoa_q0" title="How SIM swappers stole $24 million from Michael Terpin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <figcaption>This video is about Michael Terpin, a crypto investor who lost $24 million in 2018 after hackers had his AT&amp;T number moved to their phone. Much of his case boiled down to whether AT&amp;T had to pay for it.</figcaption>
+      </figure>
+
+      <p>So can a SIM swap get around text-message codes? Yes, very easily. The codes themselves are fine. The issue is where they are being sent. They go to your phone number. Anyone who is good at pretending to be you can move your phone number.</p>
+
+      <section class="takeaway">
+        <h2>Stay safe</h2>
+        <ul>
+          <li>Today, activate your carrier lock. On Verizon, these are called SIM Protection and Number Lock. On T-Mobile, it’s SIM Protection and Port-Out Protection. On AT&amp;T, it’s called Wireless Account Lock. All of them are free.</li>
+          <li>If the site allows it, use an authenticator app or a passkey instead of text codes for your most important accounts (email and banking in particular). Start with email, because that is where password resets are sent.</li>
+          <li>If your phone loses service for no apparent reason, don’t just sit there waiting for your service to randomly come back. Instead, you should connect to Wi-Fi or borrow your friend’s phone and call your carrier immediately. After that, check your email and bank to make sure nothing looks off.</li>
+          <li>Be careful about posting your phone number, birthday, or address publicly. That’s the info scammers use to pretend to be you.</li>
+          <li>Your carrier will never call or text asking you to turn your lock off. If someone does, it’s definitely a scam.</li>
+        </ul>
+        <p><strong>Bottom line:</strong> Your phone number is easier to steal than your phone, so you should lock it with your carrier and use something stronger than texts for the accounts that are the most important.</p>
+      </section>
+
+      <div class="sources">
+        <h3>Sources</h3>
+        <ol>
+          <li><a href="https://www.justice.gov/usao-dc/pr/alabama-man-sentenced-hack-sec-x-account-spiked-value-bitcoin">U.S. Department of Justice: Alabama man sentenced in hack of SEC X account that spiked the value of Bitcoin</a></li>
+          <li><a href="https://www.securityweek.com/prison-sentence-for-man-involved-in-sec-x-account-hack/">SecurityWeek: Prison sentence for man involved in SEC X account hack</a></li>
+          <li><a href="https://www.theregister.com/2025/05/19/sim_swapper_sec_x_account/">The Register: SEC SIM-swapper put behind bars</a></li>
+          <li><a href="https://www.govinfo.gov/content/pkg/FR-2023-12-08/html/2023-26338.htm">Federal Register: Protecting consumers from SIM-swap and port-out fraud</a></li>
+          <li><a href="https://www.tlp.law/2024/07/08/fcc-amends-sim-swapping-port-out-fraud-compliance-date/">TLP: FCC amends SIM swapping and port-out fraud compliance date</a></li>
+          <li><a href="https://www.verizon.com/about/account-security/how-does-verizon-protect-my-account">Verizon: How does Verizon protect my account?</a></li>
+          <li><a href="https://macrumors.com/2025/07/01/account-lock-sim-swapping">MacRumors: AT&amp;T launches account lock to combat SIM swapping scams</a></li>
+          <li><a href="https://www.techlicious.com/tip/lock-sim-card-sim-swapping/">Techlicious: How to lock your SIM card to stop SIM swapping</a></li>
+        </ol>
+        <p>This post is for general education, not legal or financial advice.</p>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Pay Attention · A Web 2.0 project by Adam Kim · Northeastern University</div>
+  </footer>
+
+</body>
+</html>
