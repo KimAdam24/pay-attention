@@ -38,14 +38,14 @@
       <h2>It starts at the gas pump</h2>
       <p>You pull into a gas station at night and swipe your debit card at the pump. All seems well. But someone put a little gadget in the card reader, and it just copied everything off the magnetic stripe on your card. A week later you see charges on your account from a store you haven’t ever been to.</p>
       <p>Now imagine the same gas station, but this time you bring your phone up to the reader. The skimmer’s still there. It just doesn’t get anything useful.</p>
-      <p>That difference comes down to what your card actually sends to the store. It’s one of my favorite examples of security just working, without you having to think about it. It’s also an example of how scammers adapt when one of their methods stops working.</p>
+      <p>It all comes down to what your card actually sends to the store. I love this example because the security just works, and you don’t even have to think about it. It also shows how scammers switch things up once an old trick stops working.</p>
 
       <figure>
         <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="500">
 <a href="https://www.reddit.com/r/interestingasfuck/comments/vrvkc0/finding_a_scamming_card_shimmer_at_gas_station/">Finding a scamming card shimmer at gas station</a><br> in
 <a href="https://www.reddit.com/r/interestingasfuck/">interestingasfuck</a>
 </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
-        <figcaption>A Reddit user finds a card shimmer hidden in a gas station’s checkout terminal. Shimmers sit inside the chip slot and copy card data when a user inserts their card, which is one more reason that tapping is safer. (Apologies for the subreddit name.)</figcaption>
+        <figcaption>A Reddit user finds a card shimmer hidden in a gas station’s checkout terminal. Shimmers sit inside the chip slot and copy card data when a user inserts their card, which is one more reason that tapping is safer.</figcaption>
       </figure>
 
       <h2>What a swipe gives away</h2>
@@ -102,14 +102,14 @@
             <line class="arrow" x1="420" y1="204" x2="476" y2="204"/>
           </svg>
         </div>
-        <figcaption>Swiping gives the store the same number every time. Tapping gives it a stand-in number and a code that only works once.</figcaption>
+        <figcaption>Swiping gives the store the same number every time. Tapping gives it a stand-in number and a code which only works one time.</figcaption>
       </figure>
 
       <h2>Where it breaks</h2>
-      <p>So if tapping is so safe, how do scammers still get around it? They’ve actually pretty much quit trying to steal your number at the register. Now they go after another moment, when your card is added to a phone. This is what it could look like.</p>
-      <p>You get a text saying you owe a toll or that a package failed to be delivered. Then they give you a link that takes you to a site that looks real and asks for your card info to pay a small fee. The site tells you your bank needs to verify the payment and asks you for the code it just texted you, but that code isn’t for a payment. <a href="https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks">Your bank sent it because the scammers are adding your card</a> to Apple Pay or Google Wallet on a phone they control. When you type it in, your card is on their phone, complete with a real token and real one-time codes.</p>
-      <p>This actually happens on a huge scale. Researchers have tied some of these instances to China-based groups known as the Smishing Triad (smishing is phishing over text). One security firm found that a single phishing kit had <a href="https://mobileidworld.com/chinese-cybercrime-groups-exploit-mobile-wallet-systems-to-convert-stolen-card-data">collected 108,044 cards from 31 websites</a>. The groups load several stolen cards onto one phone and <a href="https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks">sell those phones in bulk</a> to people who use them for online and tap-to-pay purchases. Some even use apps that relay a tap over the internet, so a stolen wallet on a phone in China can pay at a register somewhere else. In November 2025, Google <a href="https://therecord.media/google-files-lawsuit-to-disrupt-lighthouse-scam">filed a lawsuit</a> against the people behind one of these kits, called Lighthouse.</p>
-      <p>From a security point of view, this is a really interesting weak spot. Tokenization checks that a payment came from the device the card was added to. It has no way of knowing that the device belongs to a scammer. So the weakest step isn’t the tap at all. It’s enrollment, and that step usually involves a one-time code via text. It’s the same social engineering idea from my <a href="zelle-scams.html">Zelle post</a>. The scammers don’t hack security. They get you to sign off on it for them.</p>
+      <p>So if tapping is so safe, how do fraudsters still get through? They’ve pretty much stopped trying to steal your number at the cash register. Now they go for another moment, when your card is added to a phone. This is what it may look like.</p>
+      <p>You get a text saying you owe a toll or that a package wasn’t delivered. Then they send you a link that takes you to a site that looks real and asks for your card info to pay a small fee. The site then says that your bank needs to verify the payment and asks for the code your bank just texted you. But the trick is that the code isn’t for a payment. <a href="https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks">Your bank sent it because the scammers are adding your card</a> to Apple Pay or Google Wallet on a phone they have control of. You put it in, and now your card is on their phone. Real token. Actual one-time codes.</p>
+      <p>This actually happens in a big way. Some of these have been attributed to China-based groups known as the Smishing Triad (smishing is phishing via text). One security firm uncovered a single phishing kit that had <a href="https://mobileidworld.com/chinese-cybercrime-groups-exploit-mobile-wallet-systems-to-convert-stolen-card-data">harvested 108,044 cards from 31 websites</a>. The groups put a number of stolen cards on one phone and then <a href="https://krebsonsecurity.com/2025/04/china-based-sms-phishing-triad-pivots-to-banks">sell those phones in bulk</a> to people who use them for online and tap-to-pay purchases. Some even use apps that send a tap across the internet, so a stolen wallet on a phone in China can pay at a register somewhere else. In November 2025, Google <a href="https://therecord.media/google-files-lawsuit-to-disrupt-lighthouse-scam">sued the people behind one of these kits</a>, called Lighthouse.</p>
+      <p>This is a really interesting weak spot from a security point of view. Tokenization validates that the payment is from the device where the card was added. It has no way of knowing that the device is owned by a scammer. So the tap is not the weakest step at all. It’s enrollment, and that step usually involves a one-time code via text. It’s the same social engineering idea from my <a href="zelle-scams.html">Zelle post</a>. The scammers don’t hack security. They get you to sign off on it for them.</p>
 
       <figure>
         <div class="embed">
@@ -129,7 +129,7 @@
           <li>Watch for alerts about adding your card to a new wallet. If you didn’t add it, call your bank immediately.</li>
           <li>Have a passcode on your phone. It’s what keeps your wallet safe if your phone is lost or stolen.</li>
         </ul>
-        <p><strong>Bottom line:</strong> Tap-to-pay hides your card number from the store. The real danger is someone getting your card onto their phone. Never give out a code you didn’t ask for.</p>
+        <p><strong>Bottom line:</strong> When you tap to pay, the store never sees your card number. The real danger is someone getting your card onto their phone. Never give out a code you didn’t ask for.</p>
       </section>
 
       <div class="sources">
@@ -151,23 +151,23 @@
       </nav>
 
       <section class="comments">
-	<h2>Comments</h2>
-	    <script src="https://giscus.app/client.js"
-        data-repo="KimAdam24/pay-attention"
-        data-repo-id="R_kgDOVdtPqw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOVdtPq84DKa3u"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        <h2>Comments</h2>
+        <script src="https://giscus.app/client.js"
+          data-repo="KimAdam24/pay-attention"
+          data-repo-id="R_kgDOVdtPqw"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOVdtPq84DKa3u"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+        </script>
       </section>
 
     </article>
